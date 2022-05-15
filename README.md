@@ -1,4 +1,4 @@
-고인특 프로젝트 준비
+# 고인특 프로젝트 준비
 
 
 1. 가상환경 설정 (기존 github readme 기준)
@@ -6,7 +6,7 @@
 conda create -n swin python=3.7 -y
 conda activate swin
 
-# conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=10.2 -c pytorch
+// conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=10.2 -c pytorch
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 -> 공식 깃헙에서는 주석처리한 윗 줄로 되어있는데, 제 GPU가 RTX 3070에 11.4가 깔려있어서 그런지 (nvcc --version 기준)
 안돌아가서 아래 줄로 환경셋팅 했습니다. 

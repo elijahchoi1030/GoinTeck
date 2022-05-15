@@ -31,6 +31,13 @@
 ## 3. 참고 사항
 swin version 2가 출시된 것으로 보입니다. 그러나 그냥 swin으로 가정하고 코드를 짰습니다. 
 
+그리고 깃헙에서 CIFAR 100이 업로드가 안되서 (용량 이슈)
+
+https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
+
+에서 다운 받은 다음에, ./data/cifar_dataset 에 압축 풀어주시면 될 것 같습니다. 
+
+
 ## 4. 수정한 사항
 자체적으로 CIFAR을 지원하지는 않는다고 합니다. "data/build.py/line 122 We only support ImageNet Now"
 
